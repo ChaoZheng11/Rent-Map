@@ -1,6 +1,6 @@
 var mongoose=require('mongoose')
 
-mongoose.connect('mongodb://localhost:27017/max',{ useNewUrlParser: true },{ 
+mongoose.connect('mongodb://localhost:27017/YOUR DATABASE NAME',{ useNewUrlParser: true },{ 
     useUnifiedTopology: true } )
 
 const conn=mongoose.connection
